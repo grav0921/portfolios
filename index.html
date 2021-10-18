@@ -94,16 +94,18 @@
         background-size: cover;
         background-attachment: fixed;
       }
-      /*@media only screen and (max-width: 500px){
+      @media only screen and (max-width: 500px){
          #heroes{
-          background-position-x: -8rem !important;
+          /*background-position-x: -8rem !important;*/
+          background : black;
           transition: 0.5s;
         }
          #heroes::before{
           position:absolute !important;
           height: 100% !important;
+          display : none;
         }
-      }*/
+      }
       #heroes::before{
         content: "";
         filteer: brightness(25%);
